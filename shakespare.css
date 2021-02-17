@@ -1,0 +1,56 @@
+.speech{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:black;
+}
+.stage-direction{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    color:black;
+    background-color:coral;
+    display: inline;
+}
+.stage-direction:hover{
+    color:hsl(56, 38%, 58%);
+    background-color:darkslategray;
+    display: inline;
+}
+.name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:black;
+}
+.philo{
+    color:blue;
+}
+.cleopatra{
+    color:brown;
+} 
+.mark_antony{
+    color:cyan;
+}
+table{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+table,td,th{
+    border: 5px solid red;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 22px;
+}
+th{
+    background-color:hsl(54, 100%, 90%);
+    text-decoration: underline;
+    color:lightcoral;
+    font-size: large;
+}
+td{
+    color:lightcoral;
+    margin: 1px;
+}
+tr:nth-child(even){
+    background-color:seashell;
+}
