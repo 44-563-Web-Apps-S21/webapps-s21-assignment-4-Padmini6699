@@ -58,11 +58,45 @@ tr:nth-child(even){
     text-shadow: 1px 15px 2px black;
     border-radius: 5px;
     padding: 15px;
-    border-top: 2px solid #123456;
+    border-top: 2px solid cyan;
     border-left: 10px solid #123456;
     border-right: 10px solid #123455;
     border-bottom-width: 50px;
     border-bottom-style: ridge;
     border-bottom: 2px solid black;
 
+}
+img{
+    width:300px;
+    height:300px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar li{
+    float: left;
+   
+    /* padding: 2px; */
+    background: hsl(56, 40%, 40%);
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.fa{
+    margin-right:2px;
+}
+.navbar a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    border-radius: 2px;
 }
